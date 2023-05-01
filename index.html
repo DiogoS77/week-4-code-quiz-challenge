@@ -1,48 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <header>
-        <div id="highscores">
-        <a href="/assets/js/scores.js">High Scores</a>
-    </div>
-    <div id="timer"></div>
+      <div id="highscores">
+        <a href="./assets/js/scores.js">High Scores</a>
+      </div>
+      <div id="timer"></div>
     </header>
     <main>
-        <div id="Welcome">
+      <div id="Welcome">
         <h1>Welcome to the Code Quiz</h1>
         <button id="quizStart" class="btn">Start Quiz</button>
-    </div>
-    <div id="quiz" class="hidden">
-        <div id="question">
-        </div>
-        <div id="options">
-        </div>
-        <div id="message">
-        </div>
-    </div>
+      </div>
+      <div id="quiz" class="hidden">
+        <div id="question"></div>
+        <div id="options"></div>
+        <div id="message"></div>
+      </div>
 
-    <div id="result" hidden>
+      <div id="result" hidden>
         <h1>Quiz Complete!</h1>
         <h2 id="summary"></h2>
         <div>
-          <input type="text" id="initials" placeholder="Enter Your Initials">
+          <input type="text" id="initials" placeholder="Enter Your Initials" />
           <button class="btn" id="saveScore">Save Score</button>
           <button class="btn" id="viewScores">View Top Scores</button>
           <button class="btn" id="playAgain">Play Again</button>
         </div>
       </div>
-
     </main>
-    
-</body>
-<script src="./assets/js/questions.js"></script>
-<script src="./assets/js/quiz.js"></script>
+  </body>
+  <script src="./assets/js/questions.js"></script>
+  <script src="./assets/js/quiz.js"></script>
 </html>
