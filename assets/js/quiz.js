@@ -50,12 +50,17 @@ function onSelectAnswer(e) {
   var correctAnswer = questions[currentQuestion].answer;
   var userAnswer = e.target.textContent;
 
+  var correctSound = new Audio("./assets/sfx/correct.wav");
+  var incorrectSound = new Audio("./assets/sfx/incorrect.wav");
+
   if (correctAnswer === userAnswer) {
     score++;
     displayMessage("Correct!!!!!");
+    correctSound.play();
   } else {
     score--;
     displayMessage("Wrong -_-");
+    incorrectSound.play();
   }
 
   displayQuestion();
