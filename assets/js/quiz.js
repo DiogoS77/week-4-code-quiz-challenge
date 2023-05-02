@@ -127,3 +127,7 @@ function onStartGame() {
 quizStart.addEventListener("click", onStartGame);
 saveScoreBtn.addEventListener("click", onSaveScore);
 viewScoresBtn.addEventListener("click", onViewScores);
+
+playAgainBtn.addEventListener("click", function () {
+  window.location.reload();
+});
