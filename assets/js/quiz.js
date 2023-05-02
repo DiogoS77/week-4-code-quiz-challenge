@@ -132,3 +132,11 @@ viewScoresBtn.addEventListener("click", onViewScores);
 playAgainBtn.addEventListener("click", function () {
   window.location.reload();
 });
+
+//This code sets up a quiz game that includes multiple-choice questions and a timer.
+//The user can start the quiz by clicking a "Start Quiz" button.
+//Once started, the user has a limited amount of time to answer all the questions.
+//If the user answers correctly, they receive a point; if they answer incorrectly, they lose a point and have time deducted from their remaining time.
+//At the end of the game, the user's score is displayed along with an input field for their initials, and buttons to save their score, view high scores, or play again.
+//When the user saves their score, it is stored in local storage so that it can be displayed on a high scores page.
+//The quiz is built dynamically from an array of questions and their answers, which are defined in a separate file.

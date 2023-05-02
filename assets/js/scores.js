@@ -34,3 +34,7 @@ scores.forEach(function (score) {
 });
 
 backQuiz.addEventListener("click", onBackQuiz);
+
+//this code retrieves scores from the browser's local storage,
+//sorts them in descending order based on the score,
+//and displays them on a webpage. It also provides a button to redirect the user back to the quiz homepage.

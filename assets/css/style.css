@@ -122,7 +122,7 @@ h1 {
 }
 
 #message {
-  margin: 10px;
+  margin: 10px; /*This code until the top covers the overall style of the page */
 }
 
 #result {
@@ -168,3 +168,5 @@ h1 {
 #playAgain:hover {
   background-color: #0056b3;
 }
+
+/* The code until the comment above covers the end plage in where displays the save score, view high scores and play again buttons and the initials box , so this covers the design for it. */
