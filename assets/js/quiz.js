@@ -61,6 +61,7 @@ function onSelectAnswer(e) {
     score--;
     displayMessage("Wrong -_-");
     incorrectSound.play();
+    secondsLeft -= 10;
   }
 
   displayQuestion();

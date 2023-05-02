@@ -124,3 +124,47 @@ h1 {
 #message {
   margin: 10px;
 }
+
+#result {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#summary {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+#initials {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  text-align: center;
+}
+
+#saveScore,
+#viewScores,
+#playAgain {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#saveScore:hover,
+#viewScores:hover,
+#playAgain:hover {
+  background-color: #0056b3;
+}
